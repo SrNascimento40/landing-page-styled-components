@@ -1,16 +1,9 @@
 import { useState } from 'react'
-import { Title } from './styles'
+import Home from './pages/Home'
+import './styles.css';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <div className="App">
-      <Title backgroundColor={"gray"}>
-        Vai Corinthians!!! <span>Esta noite, teremos que ganhar!!</span>
-      </Title>
-    </div>
+    <Home />
   )
 }
-
-export default App

@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
-    color: blue;
-	font-size: 50px;
+    background-color: blue;
+    overflow: visible;
+	padding: 5px 10px 5px 10px;
     
 	nav {
 		background-color: blanchedalmond;
@@ -19,5 +20,6 @@ export const StyledHeader = styled.header`
 `
 
 export const StyledImage = styled.img`
-    size: 5rem;
+    background-color: #000;
+    max-width: 150px;
 `

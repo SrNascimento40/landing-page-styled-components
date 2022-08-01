@@ -1,15 +1,16 @@
 import { StyledHeader, StyledImage } from "./style";
+import logo from "../../assets/logo.jpg"
 
 
 export default function Header () {
     return (
         <StyledHeader>
             <nav>
-                <StyledImage src="logo.png"/>
+                <StyledImage src={logo}/>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>About</li>
+                    <li>Posts</li>
+                    <li>Contact</li>
                 </ul>
             </nav>
         </StyledHeader>

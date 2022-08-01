@@ -15,5 +15,5 @@ export const StyledFooter = styled.header`
 `
 
 export const StyledImage = styled.img`
-    size: 5rem;
+    max-width: 150px;
 `
